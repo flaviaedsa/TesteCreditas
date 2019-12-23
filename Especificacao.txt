@@ -1,0 +1,71 @@
+# Desafio para QA - Test Engineer
+
+1. Especificação
+O Login do site da Creditas está sendo criado agora e o time de desenvolvimento precisa 
+entender melhor como deve funcionar para que possam desenvolver com assertividade. 
+Sua missão é escrever os cenários dessa funcionalidade para guiar o desenvolvimento.
+
+Cenário 1 - Login realizado com sucesso - Login com CPF
+    Dado que eu informe um CPF válido 
+    E informe uma senha válida
+    Quando clico no botão "Entrar"
+    Então devo realizar o login com sucesso
+
+Cenário 2 - Login realizado com sucesso - Login com E-mail
+    Dado que eu informe um e-mail válido 
+    E informe uma senha válida
+    Quando clico no botão "Entrar"
+    Então devo realizar o login com sucesso
+
+Cenário 3 - CPF correto e senha inválida
+    Dado que eu informe um CPF válido 
+    E informe uma senha inválida
+    Quando clico no botão "Entrar"
+    Então o login não deve ser realizado
+
+Cenário 4 - CPF inválido e senha correta
+    Dado que eu informe um CPF inválido
+    E informe uma senha válida
+    Quando clico no botão "Entrar"
+    Então o login não deve ser realizado
+
+Cenário 5 - E-mail correto e senha inválida
+    Dado que eu informe um e-mail válido no campo usuario
+    E informe uma senha inválida
+    Quando clico no botão "Entrar"
+    Então o login não deve ser realizado
+
+Cenário 6 - E-mail inválido e senha correta
+    Dado que eu informe um e-mail inválido 
+    E informe uma senha válida
+    Quando clico no botão "Entrar"
+    Então o login não deve ser realizado
+
+Cenário 7 - Usuário e senha inválidos
+    Dado que eu informe um e-mail ou um CPF inválido
+    E informe uma senha inválida
+    Quando clico no botão "Entrar"
+    Então o login não deve ser realizado
+
+Cenário 8 - Usuário em branco e senha correta
+    Dado que eu não informe CPF e nem e-mail
+    E informe uma senha válida
+    Quando clico no botão "Entrar"
+    Então o login não deve ser realizado
+
+Cenário 9 - Usuário correto e senha em branco
+    Dado que eu informe um e-mail ou CPF válido
+    E não informe uma senha
+    Quando clico no botão "Entrar"
+    Então o login não deve ser realizado
+
+Cenário 10 - Usuário e senha em branco
+    Dado que eu não informe CPF e nem e-mail 
+    E não informe uma senha
+    Quando clico no botão "Entrar"
+    Então o login não deve ser realizado
+
+Cenário 11 - Link "Esqueceu a senha?"
+    Quando eu clico no link "Esqueceu a senha?" abaixo do botão "Entrar"
+    Então devo conseguir recuperar a minha senha
+
