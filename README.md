@@ -9,7 +9,7 @@ As tecnologias utilizadas são:
 |                |Tecnologia                       
 |----------------|-------------------------------                           |
 |**Linguagem**   |`Ruby`                                                    |
-|Bibliotecas     |`Capybara, Cucumber, Faker, Httparty, Rspec` |
+|Bibliotecas     |`Capybara, Cucumber, Faker, Httparty, Rspec, SitePrism` |
 |**Framework**   |`Selenium WebDriver`                                      |
 
 
