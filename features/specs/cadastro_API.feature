@@ -1,5 +1,5 @@
 #language: pt
-
+@api
 Funcionalidade: Realizar um cadastro
     Como aplicação
     Quero realizar um cadastro
