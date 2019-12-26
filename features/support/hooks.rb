@@ -1,4 +1,5 @@
 Before do
   @checkbox = CheckboxPage.new
-  @nova_aba = AbaPage.new
+  @aba = AbaPage.new
+  @nova_aba = NovaAbaPage.new
 end
