@@ -26,6 +26,7 @@ As tecnologias utilizadas são:
 Antes de rodar os testes instale:
 
    1 - [ruby] 
+   
    2 - [Chrome_Driver] 
 
 Após isso siga os passos abaixo:
