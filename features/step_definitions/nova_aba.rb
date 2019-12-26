@@ -5,7 +5,6 @@ end
 
 Quando("clico no link para abrir uma nova aba") do
   @aba.click_here.click
-  # sleep 10
 end
 
 Então("devo visualizar a nova aba aberta") do
