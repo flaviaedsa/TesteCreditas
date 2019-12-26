@@ -3,9 +3,11 @@
 O Objetivo deste teste é:
 
  (1) Especificar/descrever a funcionalidade de login de um sistema através do levantamento de cenários/exemplos. 
+
     * A especificação consta no arquivo "Especificação.txt"
 
  (2) Automatizar 3 cenários, 2 frontend e um backend.
+ 
     * Os cenários frontend contemplam:
       - Adicionar e remover um checkbox na tela
       - Clicar em um link e abrir uma nova aba
@@ -26,7 +28,7 @@ As tecnologias utilizadas são:
 Antes de rodar os testes instale:
 
    1 - [ruby] 
-   
+
    2 - [Chrome_Driver] 
 
 Após isso siga os passos abaixo:
