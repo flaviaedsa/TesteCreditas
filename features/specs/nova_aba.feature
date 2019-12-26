@@ -1,5 +1,5 @@
 #language: pt
-@nova_guia
+@nova_aba
 Funcionalidade: Abrir uma nova aba
 
     Cenario: Cadastro realizado com sucesso
