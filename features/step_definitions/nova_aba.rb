@@ -9,6 +9,6 @@ end
 
 Então("devo visualizar a nova aba aberta") do
   @NewAba.load
-  # expect(@Nova_Aba.mensagem_validacao.text).to eq "New Window"
+  expect(@Nova_Aba.mensagem_validacao.text).to eq "New Window"
   screenshot("Nova Aba")
 end

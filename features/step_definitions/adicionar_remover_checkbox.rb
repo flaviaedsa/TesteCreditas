@@ -19,7 +19,7 @@ Dado("que o checkbox foi removido") do
 end
 
 Quando("clico para adicionar o checkbox") do
-  sleep 4
+  sleep 3
   @checkbox.wait_until_botao_add_visible
   @checkbox.botao_add.click
 end
